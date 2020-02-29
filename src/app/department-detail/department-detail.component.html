@@ -1,3 +1,8 @@
+<div>
+  <button (click)="showOverview()">Overview</button
+  ><button (click)="showContact()">Contact</button>
+</div>
+<router-outlet></router-outlet>
 <div class="department-list">You have selected the {{ departmentId }}</div>
 <div class="prev-next-wrapper">
   <a (click)="onPrevious()">Previous</a> | <a (click)="onNext()">Next</a>
