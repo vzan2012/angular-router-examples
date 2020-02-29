@@ -1,0 +1,22 @@
+#container {
+  position: relative;
+
+  h1 {
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .action-links {
+    margin: 20px auto 10px;
+    text-align: center;
+
+    a {
+      background: #3498db;
+      color: #fff;
+      font-weight: bold;
+      padding: 5px 10px;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+  }
+}

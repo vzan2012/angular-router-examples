@@ -1,0 +1,55 @@
+.department-detail-container {
+  position: relative;
+  margin: 25px auto 0;
+  text-align: center;
+
+  .child-route-wrapper {
+    margin: 0 0 10px 0;
+
+    button {
+      background: #375a7f;
+      color: #fff;
+      cursor: pointer;
+      outline: none;
+      border: 0px;
+      padding: 5px 10px;
+
+      &:first-child {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .router-container {
+    margin: 20px auto 30px;
+    max-width: 300px;
+    text-align: center;
+    border: 1px dashed #f39c12;
+  }
+
+  .department-list {
+    font-weight: bold;
+
+    span {
+      font-style: italic;
+    }
+  }
+
+  .prev-next-wrapper {
+    margin: 20px auto;
+    font-weight: bold;
+    a {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  .btn-back {
+    background: #e74c3c;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 15px;
+  }
+}

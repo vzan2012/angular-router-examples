@@ -1,12 +1,19 @@
-<div>
-  <button (click)="showOverview()">Overview</button
-  ><button (click)="showContact()">Contact</button>
-</div>
-<router-outlet></router-outlet>
-<div class="department-list">You have selected the {{ departmentId }}</div>
-<div class="prev-next-wrapper">
-  <a (click)="onPrevious()">Previous</a> | <a (click)="onNext()">Next</a>
-</div>
-<div>
-  <button (click)="gotoDepartments()">Back</button>
+<div class="department-detail-container">
+  <div class="child-route-wrapper">
+    <button (click)="showOverview()">Overview</button
+    ><button (click)="showContact()">Contact</button>
+  </div>
+  <div class="router-container">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="department-list">
+    You have selected the id <span>{{ departmentId }}</span>
+  </div>
+  <div class="prev-next-wrapper">
+    <a (click)="onPrevious()">&lt;&lt; Previous</a> |
+    <a (click)="onNext()">Next &gt;&gt;</a>
+  </div>
+  <div>
+    <button (click)="gotoDepartments()" class="btn-back">&lt;&lt; Back</button>
+  </div>
 </div>

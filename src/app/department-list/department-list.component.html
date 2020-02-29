@@ -2,10 +2,10 @@
   <ul *ngFor="let department of departmentList; index as i">
     <li
       [class.selected]="isSelected(department)"
-      style="cursor: pointer;"
       (click)="onSelect(department)"
+      class="badge-wrapper"
     >
-      {{ department.id }} - {{ department.name }}
+      <span class="badge">{{ department.id }}</span> - {{ department.name }}
     </li>
   </ul>
 </div>

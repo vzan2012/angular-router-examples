@@ -1,0 +1,32 @@
+.department-list {
+  margin: 20px 0 10px 50px;
+  max-width: 150px;
+
+  ul {
+    li.badge-wrapper {
+      list-style: none;
+      margin-bottom: 20px;
+      background: #303030;
+      border: 1px solid #444;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      font-weight: bold;
+      padding: 10px;
+
+      .badge {
+        background: #375a7f;
+        border-radius: 30px;
+        color: #fff;
+        padding: 5px 9px;
+      }
+
+      &.selected {
+        background: #375a7f;
+        .badge {
+          background: #303030;
+        }
+      }
+    }
+  }
+}
