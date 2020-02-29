@@ -1,6 +1,6 @@
-# RoutingExample
+# Angular - Routing - Examples
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+Angular Router tutorials has been implemented in this project. The main goal is to learn the router functionalities and the examples used are from the YouTube tutorials. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
 
 ## Development server
 

@@ -1,0 +1,5 @@
+<div class="department-list">
+    <ul *ngFor="let department of departmentList; index as i">
+        <li style="cursor: pointer;" (click)="onSelect(department)">{{department.id}} - {{department.name}}</li>
+    </ul>
+</div>
