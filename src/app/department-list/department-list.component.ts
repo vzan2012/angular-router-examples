@@ -9,11 +9,11 @@ import { Router } from '@angular/router';
 export class DepartmentListComponent implements OnInit {
 
   public departmentList = [
-    {"id": 1, "name": "C"},
-    {"id": 2, "name": "C++"},
-    {"id": 3, "name": "JavaScript"},
-    {"id": 4, "name": "Android"},
-    {"id": 5, "name": "iOS"},
+    { "id": 1, "name": "C" },
+    { "id": 2, "name": "C++" },
+    { "id": 3, "name": "JavaScript" },
+    { "id": 4, "name": "Android" },
+    { "id": 5, "name": "iOS" },
   ];
 
 
@@ -24,7 +24,7 @@ export class DepartmentListComponent implements OnInit {
 
   onSelect(department) {
     console.log(department);
-    this._router.navigate(['/departments',department.id])
+    this._router.navigate(['/departments', department.id])
   }
 
 }
